@@ -1,0 +1,521 @@
+# Copyright (C) 2026 Marcos Arellano
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kanasta – Chat Orders for WooCommerce 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kanasta\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-02T15:50:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: kanasta\n"
+
+#. Plugin Name of the plugin
+#: kanasta.php
+msgid "Kanasta – Chat Orders for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: kanasta.php
+msgid "https://wordpress.org/plugins/kanasta/"
+msgstr ""
+
+#. Description of the plugin
+#: kanasta.php
+msgid "Let customers place real WooCommerce orders and send them to you on WhatsApp. Adds an \"Order via WhatsApp\" checkout method plus WhatsApp buttons on product and cart pages."
+msgstr ""
+
+#. Author of the plugin
+#: kanasta.php
+msgid "Marcos Arellano"
+msgstr ""
+
+#. Author URI of the plugin
+#: kanasta.php
+msgid "https://marcos-arellano.vercel.app"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:31
+msgid "Settings"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:45
+msgid "Kanasta is almost ready: add your store WhatsApp number to start receiving orders."
+msgstr ""
+
+#: includes/class-kanasta-admin.php:47
+msgid "Add number"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:60
+msgid "Several WhatsApp numbers (sales team) with automatic rotation"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:61
+msgid "Business hours: hide the buttons or show a notice when you are closed"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:62
+msgid "One-click WhatsApp messages to the customer from the order screen (order confirmed, shipped, ready for pickup, payment reminder)"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:66
+msgid "Kanasta Pro"
+msgstr ""
+
+#: includes/class-kanasta-admin.php:73
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/class-kanasta-buttons.php:40
+msgid "Please choose the product options first."
+msgstr ""
+
+#: includes/class-kanasta-float.php:89
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:28
+msgid "Order via WhatsApp (Kanasta)"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:29
+msgid "The order is created in WooCommerce and the customer is sent to WhatsApp with all the order details, so you can agree on payment and delivery in the chat."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:50
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:52
+msgid "Enable \"Order via WhatsApp\" at checkout"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:56
+msgid "Title"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:58
+msgid "Name of the option customers see at checkout."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:59
+#: includes/class-kanasta-settings.php:112
+msgid "Order via WhatsApp"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:63
+msgid "Description"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:65
+msgid "Shown below the option at checkout."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:66
+msgid "Place your order and we will open WhatsApp so you can send it to us. We agree on payment and delivery in the chat."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:70
+msgid "Order received text"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:72
+msgid "Shown on the order received page and in the order email, above the WhatsApp button."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:73
+msgid "Your order is reserved. Send it to us on WhatsApp to confirm payment and delivery."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:77
+msgid "Order status"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:79
+msgid "\"On hold\" reserves stock and waits for you to confirm payment. \"Pending payment\" does not reduce stock."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:82
+msgctxt "Order status"
+msgid "On hold"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:83
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:84
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:89
+msgid "Open WhatsApp automatically"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:91
+msgid "Open WhatsApp automatically on the order received page (a button is always shown too)"
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:117
+#: includes/class-kanasta-gateway.php:120
+msgid "Order placed via WhatsApp. Waiting for the customer to confirm in the chat."
+msgstr ""
+
+#: includes/class-kanasta-gateway.php:168
+#: includes/class-kanasta-gateway.php:199
+msgid "Send my order via WhatsApp"
+msgstr ""
+
+#: includes/class-kanasta-plugin.php:169
+msgid "Kanasta needs WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:44
+msgid "WhatsApp number"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:47
+msgid "Checkout: \"Order via WhatsApp\""
+msgstr ""
+
+#. translators: %s: link to the WooCommerce payments settings.
+#: includes/class-kanasta-settings.php:50
+#, php-format
+msgid "Customers choose \"Order via WhatsApp\" at checkout: the order is created in WooCommerce and they are sent to WhatsApp with this message. Enable it and change its title in %s."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:51
+msgid "WooCommerce → Settings → Payments"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:55
+msgid "Product page button"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:58
+msgid "Cart page button"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:61
+msgid "Floating chat button"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:62
+msgid "A round WhatsApp button fixed in a corner of every page, so visitors can ask you anything."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:89
+msgid "Store WhatsApp number"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:90
+msgid "Full international number with country code, e.g. 595981123456. Spaces, \"+\" and dashes are removed automatically."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:97
+msgid "Order message"
+msgstr ""
+
+#. translators: %s: list of placeholders.
+#: includes/class-kanasta-settings.php:99
+#, php-format
+msgid "Available tags: %s. Lines whose tags are all empty are removed. Use *asterisks* for bold text in WhatsApp."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:100
+msgid ""
+"Hello! I just placed order *#{order_number}* on {site_name}.\n"
+"\n"
+"{items}\n"
+"\n"
+"Subtotal: {subtotal}\n"
+"Shipping: {shipping}\n"
+"Discount: {discount}\n"
+"*Total: {total}*\n"
+"\n"
+"Name: {customer_name}\n"
+"Phone: {customer_phone}\n"
+"Address: {shipping_address}\n"
+"Note: {customer_note}"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:105
+msgid "Show the button on product pages"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:111
+#: includes/class-kanasta-settings.php:131
+#: includes/class-kanasta-settings.php:161
+msgid "Button text"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:117
+#: includes/class-kanasta-settings.php:137
+#: includes/class-kanasta-settings.php:169
+msgid "Message"
+msgstr ""
+
+#. translators: %s: list of placeholders.
+#: includes/class-kanasta-settings.php:119
+#: includes/class-kanasta-settings.php:139
+#: includes/class-kanasta-settings.php:171
+#, php-format
+msgid "Available tags: %s"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:120
+msgid ""
+"Hello! I'd like to order:\n"
+"*{product_name}*\n"
+"Options: {variation}\n"
+"Quantity: {quantity}\n"
+"Price: {price}\n"
+"{product_url}"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:125
+msgid "Show the button on the cart page"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:132
+msgid "Send cart via WhatsApp"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:140
+msgid ""
+"Hello! I'd like to order these products:\n"
+"\n"
+"{items}\n"
+"\n"
+"*Total: {total}*"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:145
+msgid "Show the floating button"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:151
+msgid "Position"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:154
+msgid "Bottom right"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:155
+msgid "Bottom left"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:162
+msgid "Shown next to the icon on computers. Leave empty for an icon-only button."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:163
+msgid "Chat with us"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:172
+msgid ""
+"Hello! I have a question.\n"
+"{page_title}\n"
+"{page_url}"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:177
+msgid "Cart and checkout"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:178
+msgid "Hide on the cart and checkout pages"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:243
+#: includes/class-kanasta-settings.php:401
+msgid "Kanasta – WhatsApp orders"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:244
+msgid "Kanasta"
+msgstr ""
+
+#: includes/class-kanasta-settings.php:317
+msgid "The WhatsApp number looks too short. Remember to include the country code."
+msgstr ""
+
+#: includes/class-kanasta-settings.php:357
+#: includes/pro/class-kanasta-pro-hours.php:68
+msgid "Enabled"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:36
+msgid "Sales team (Pro)"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:37
+msgid "Spread conversations between several WhatsApp numbers. Leave empty to always use the store number."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:53
+msgid "Agents"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:54
+msgid "One per line: Name | number with country code. Example: Ana | 595981111111"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:61
+msgid "Rotation"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:64
+msgid "In turns (round robin)"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-agents.php:65
+msgid "Random"
+msgstr ""
+
+#. translators: %s: agent name.
+#: includes/pro/class-kanasta-pro-agents.php:149
+#, php-format
+msgid "WhatsApp agent assigned: %s"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:32
+msgid "Monday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:33
+msgid "Tuesday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:34
+msgid "Wednesday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:35
+msgid "Thursday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:36
+msgid "Friday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:37
+msgid "Saturday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:38
+msgid "Sunday"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:50
+msgid "Business hours (Pro)"
+msgstr ""
+
+#. translators: %s: site timezone.
+#: includes/pro/class-kanasta-pro-hours.php:52
+#, php-format
+msgid "Format: 09:00-18:00. Several ranges separated by commas: 08:00-12:00, 14:00-19:00. Leave a day empty when closed. Timezone: %s."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:67
+msgid "Use business hours"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:78
+msgid "Closed"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:86
+msgid "When closed"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:89
+msgid "Keep taking orders and show a notice"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:90
+msgid "Hide the WhatsApp buttons and checkout option"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:96
+msgid "Closed notice"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:97
+msgid "Tag: {next_open} (next opening day and time)."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:98
+msgid "We are closed right now. Send us your order and we will reply on {next_open}."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-hours.php:223
+msgid "We are closed right now."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:31
+msgid "Order confirmed"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:32
+msgid "Payment reminder"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:33
+msgid "On its way"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:34
+msgid "Ready for pickup"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:46
+msgid "Messages to customers (Pro)"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:47
+msgid "These messages appear as buttons in the \"WhatsApp\" box of each order. They use the same tags as the order message."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:60
+msgid "Hi {customer_name}! Your order *#{order_number}* is confirmed. Total: {total}. Thank you for buying at {site_name}!"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:61
+msgid "Hi {customer_name}! We are waiting for the payment of your order *#{order_number}* ({total}). Let us know if you need the payment details."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:62
+msgid "Hi {customer_name}! Your order *#{order_number}* is on its way to {shipping_address}."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:63
+msgid "Hi {customer_name}! Your order *#{order_number}* is ready for pickup at {site_name}."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:88
+msgid "WhatsApp"
+msgstr ""
+
+#. translators: %s: agent name.
+#: includes/pro/class-kanasta-pro-notify.php:139
+#, php-format
+msgid "Agent: %s"
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:144
+msgid "This order has no customer phone number."
+msgstr ""
+
+#: includes/pro/class-kanasta-pro-notify.php:163
+msgid "Open empty chat"
+msgstr ""
